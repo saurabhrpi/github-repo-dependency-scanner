@@ -1,0 +1,26 @@
+# GitHub Repository Dependency Scanner - Requirements
+
+# Core dependencies (install these first - should work with pre-compiled wheels)
+neo4j==5.15.0
+requests==2.31.0
+beautifulsoup4==4.12.2
+pygithub==2.1.1
+python-dotenv==1.0.0
+tqdm==4.66.1
+
+# XML parsing (may need pre-compiled wheels)
+lxml==4.9.3
+
+# Data analysis and visualization (may require compilation - install with --only-binary=all)
+# If these fail, the core functionality will still work without visualization
+networkx==3.2.1
+matplotlib==3.8.2
+seaborn==0.13.0
+pandas==2.1.4
+
+# Alternative versions (if the above fail, try these)
+# lxml>=4.6.0
+# networkx>=3.0
+# matplotlib>=3.5.0
+# seaborn>=0.11.0
+# pandas>=1.5.0 
